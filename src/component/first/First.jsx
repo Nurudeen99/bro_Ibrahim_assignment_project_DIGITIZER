@@ -2,15 +2,14 @@ import { useState } from "react"
 import Buttton from "../../shared/button/Buttton"
 
 const First = () => {
-    const [step,setStep]= useState(0)
+    const [step,setStep]= useState(1)
     function handleObjectButton(){
-      if(step==0){
-        setStep(step +1)
+      if(step==1){
+        setStep(step)
       }else if(step>=2){
         setStep(step -1)
       }
        console.log(step)
-
     }
     function handleSpacesButton(){
      if(step==1){

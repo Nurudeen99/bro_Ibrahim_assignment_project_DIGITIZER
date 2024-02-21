@@ -1,13 +1,13 @@
 
-const Card = ({img}) => {
+const Card = ({img,text,text2}) => {
   return (
     <div className="flex p-[0.3rem] justify-between border-light border-2 border-gray-900 rounded-xl">
 
         <div className="flex items-center gap-[1rem]">
-            <p><img className="h-[1.5rem]" src={img} alt="img..." /></p>
+            <div><img className="h-[1.5rem]" src={img} alt="img..." /></div>
             <div>
-               <p className="font-bold">Cars24a1</p> 
-               <p>Car</p>
+               <p className="font-bold">{text}</p> 
+               <p>{text2}</p>
             </div>
         </div>
         <div className="flex flex-col items-center m-[rem]">

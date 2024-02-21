@@ -8,9 +8,9 @@ const Third = () => {
   return (
     <div className="pt-[2rem] ">
         <p className="pb-[1rem] font-bold text-xl">Your digitized objects...</p>
-        <p className="p-[0.5rem]"><Card img={business}/></p>
-        <p className="p-[0.5rem]"><Card img={car}/></p>
-        <p className="p-[0.5rem]"><Card img={rides}/></p>
+        <p className="p-[0.5rem]"><Card text="Car24a1" text2="Car" img={business}/></p>
+        <p className="p-[0.5rem]"><Card text="Car24a1" text2="Car" img={car}/></p>
+        <p className="p-[0.5rem]"><Card text="Car24a1" text2="Car" img={rides}/></p>
     </div>
   )
 }

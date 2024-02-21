@@ -1,5 +1,4 @@
 import react from "../../assets/images/reactLogo.png"
-import greenImage from "../../assets/images/greenimage.png"
 const Second = () => {
   return (
     <div className=" flex bg-green-100 rounded-xl p-[2rem]">
