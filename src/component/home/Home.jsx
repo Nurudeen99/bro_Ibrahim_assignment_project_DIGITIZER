@@ -11,25 +11,25 @@ const Home = () => {
   // function handleColorChange(){
   //   setColor(!color)
   // }
-  const [color,setColor] = useState(false)
-    function handleBackgroundColor(){
-        setColor(!color)
-    }
+  // const [color,setColor] = useState(false)
+  //   function handleBackgroundColor(){
+  //       setColor(!color)
+  //   }
   return (
     
 
     <>
     <div className="min-h-screen p-[2rem]">
         <nav className="flex justify-center gap-[70rem] pb-[3rem]">
-            <div className="bg-green-300 "><img src={digitizer} alt="" /></div>
+            <div className=""><img src={digitizer} alt="" /></div>
             <div className=" border-solid">
-        <button  className="text-blue-500 h-[2.2rem] rounded-xl border-solid border-2 border-blue-500 w-[6rem]">connect id</button> 
+        <button  className="text-blue-500 h-[2.2rem] rounded-xl border-solid border-2 border-blue-500 w-[6rem]">connect ID</button> 
           </div>
     
         </nav>
         <div className="flex grid grid-cols-2 gap-6 px-[5rem] justify-center items-center">
               <div className="">
-                        <h1><First handleBackgroundColor={handleBackgroundColor}/></h1>
+                         <h1><First/></h1>
                          <h1><Second/></h1>
                          <h1><Third/></h1>
               </div>
